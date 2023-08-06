@@ -17,16 +17,16 @@ Ce projet est développé en utilisant le framework Laravel, qui offre une struc
 ## Installation
 1. Clonez ce dépôt sur votre machine locale en utilisant la commande suivante :
    ```
-   git clone https://github.com/GasyCoder/bacc-umg-2023.git
+   git clone https://github.com/GasyCoder/bacc_umg_23.git
    ```
 
-2. Installez les dépendances requises en utilisant la commande `composer install`.
+2. Installez les dépendances requises en utilisant la commande `composer update`.
 
 3. Dupliquez le fichier `.env.example` et renommez-le en `.env`. Configurez les informations de base de données et autres détails pertinents dans ce fichier.
 
 4. Générez une clé d'application unique en utilisant la commande `php artisan key:generate`.
 
-5. Exécutez les migrations pour créer la structure de base de données en utilisant la commande `php artisan migrate`.
+5. Exécutez les migrations pour créer la structure de base de données en utilisant la commande `php artisan migrate or php artisan db:seed`.
 
 6. Démarrez le serveur de développement avec la commande `php artisan serve`.
 
